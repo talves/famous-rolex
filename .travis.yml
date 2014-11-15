@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - '0.10'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-adarta-famous' ]; then cd .. && eval "mv $currentfolder generator-adarta-famous" && cd generator-adarta-famous; fi
+  - npm install -g grunt-cli bower
+
