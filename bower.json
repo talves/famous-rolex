@@ -14,7 +14,7 @@
   "keywords": [
     "famo.us"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "private": true,
   "ignore": [
     "**/.*",

@@ -26,7 +26,7 @@ define(function(require, exports, module) {
     });
 
     var rolex = new Rolex({
-      diameter: 400,
+      diameter: 360,
       clockBackgroundImage: 'http://fc01.deviantart.com/fs26/f/2008/106/6/a/Classic_Roam_Clock_Face_by_a_lemonhead.png'
     });
 
